@@ -1,7 +1,7 @@
 {
   "name": "@himenon/css-library-design-pattern",
   "description": "Design patterns for the css/scss npm library.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "keywords": [
     "scss"

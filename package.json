@@ -1,0 +1,30 @@
+{
+  "name": "@himenon/css-library-design-pattern",
+  "description": "Design patterns for the css/scss npm library.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "keywords": [
+    "scss"
+  ],
+  "files": [
+    "CHANGELOG.md",
+    "*Style",
+    "LICENSE"
+  ],
+  "scripts": {
+    "release:github:registry": "lerna publish from-package --yes --registry https://npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}",
+    "release:npm:registry": "lerna publish from-package --yes"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himenon/css-library-design-pattern.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "conventional-changelog-angular-all": "1.7.0",
+    "lerna": "3.22.1"
+  }
+}

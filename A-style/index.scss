@@ -1,0 +1,15 @@
+@import "../BaseStyle";
+
+.text {
+  font-family: $default-font-family;
+  color: blue;
+}
+
+.text::before {
+  content: "A Style";
+  color: #000000;
+  font-weight: bold;
+  background-color: #FFFF00;
+  padding-left: 1em;
+  padding-right: 1em;
+}
